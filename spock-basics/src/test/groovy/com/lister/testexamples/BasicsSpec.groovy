@@ -1,7 +1,6 @@
-package com.testexamples
+package com.lister.testexamples
 
-
-import com.services.java.Account
+import com.lister.java.Account
 import spock.lang.Specification
 
 class BasicsSpec extends Specification {

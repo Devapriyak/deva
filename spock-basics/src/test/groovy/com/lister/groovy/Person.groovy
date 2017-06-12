@@ -1,4 +1,4 @@
-package com.services.groovy
+package com.lister.groovy
 
 // we are going to stub, mock, and spy on this poor soul
 class Person {

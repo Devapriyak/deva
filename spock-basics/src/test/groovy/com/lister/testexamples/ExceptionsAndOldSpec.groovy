@@ -1,7 +1,7 @@
-package com.testexamples
+package com.lister.testexamples
 
-import com.services.java.Account
-import com.services.java.NegativeAmountWithdrawnException
+import com.lister.java.Account
+import com.lister.java.NegativeAmountWithdrawnException
 
 import spock.lang.Specification
 

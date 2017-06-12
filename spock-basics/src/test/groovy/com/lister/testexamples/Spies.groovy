@@ -1,25 +1,13 @@
-package com.testexamples
+package com.lister.testexamples
 
-import com.services.groovy.Person
+import com.lister.groovy.Person
 import spock.lang.Specification
 
-class StubsAndSpies extends Specification {
-    def "stubs"() {
-        def person = Stub(Person)
-
-        // stubs cannot demand interactions
-        // 1 * person.sing()
-
-        // stubs have more ambitious default return values than plain mocks
-        expect:
-        person.name == ""
-        person.bestFriend instanceof Person
-        person.bestFriend.name == "Mr. Unknown"
-    }
+// Spy has the ability to track to the original object and it can even change the
+// original value returned.
+class Spies extends Specification {
 
     def "spies"() {
-        // can only spy on class, not on interface
-        // creates a real person underlying the spy
         def person = Spy(Person, constructorArgs: ["Fred", 42])
 
         expect:

@@ -1,4 +1,4 @@
-package com.services.java;
+package com.lister.java;
 
 import java.math.BigDecimal;
 

@@ -7,7 +7,4 @@ Commands to follow
 1. It cleans the target folders and installs the dependencies mentioned in the pom file
  mvn clean install
 
-2. Execute groovy test class as Junit test either using eclipse GUI option or by providing the below to
-run all the test cases
 
- mvn test
