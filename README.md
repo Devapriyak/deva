@@ -7,4 +7,4 @@ Commands to follow
 1. It cleans the target folders and installs the dependencies mentioned in the pom file
  mvn clean install
 
-
+2. To execute the test cases, run as Junit test cases on the project
